@@ -1,0 +1,21 @@
+.main_flex{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+      justify-content: space-around;
+  }
+  .main_flex > div {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+  }
+  button {
+    width:100px;
+    height: 100px;
+    box-shadow: 3px 3px 0 grey
+  }
+
+  span {
+      font-size: xx-large;
+  }
